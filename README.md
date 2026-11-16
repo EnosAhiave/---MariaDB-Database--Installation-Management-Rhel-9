@@ -98,6 +98,8 @@ Verify the active data directory:
 ```sql
 SHOW VARIABLES LIKE 'datadir';
 
+
+
 ## Troubleshooting
 
 | Issue | Resolution |
@@ -110,7 +112,7 @@ SHOW VARIABLES LIKE 'datadir';
 
 ## Deliverables
 
-- Running MariaDB server on RHEL 8
+- Running MariaDB server on RHEL 9
 - Secured database environment
 - Created database and user
 - Custom MariaDB data directory configured
