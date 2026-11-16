@@ -104,7 +104,7 @@ SHOW VARIABLES LIKE 'datadir';
 
 | Issue | Resolution |
 | --- | --- |
-| MariaDB service fails to start | Verify the configuration file and review logs using systemctl status mariadb and journalctl \-uxe.<BR>check if SELinux is blocking the service or not. if yes, use semanage to applay contex |
+| MariaDB service fails to start | Verify the configuration file and review logs using systemctl status mariadb and journalctl -uxe.check if SELinux is blocking the service or not. if yes, use semanage to applay contex followed by restorecon *
 | Access denied for database users | Confirm user privileges and credentials. |
 | Cannot connect to MariaDB | Ensure the service is running and firewall rules allow access. |
 | Database unavailable after migration | Verify the new data directory path, ownership, and permissions. |
