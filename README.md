@@ -1,4 +1,4 @@
-# MariaDB on RHEL 9 Lab
+# MariaDB  Database on RHEL 9 Lab
 
 ## Overview
 
